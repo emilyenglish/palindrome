@@ -8,14 +8,18 @@ Purpose: tests for palindrome
 from subprocess import getstatusoutput, getoutput
 import os.path
 import re
-from unittest.mock import patch
-from unittest import TestCase
 
 palindrome = './palindrome.py'
+palindrome2 = './palindrome.py foo'
 
 def test_exists_palindrome():
     #test that palindrome.py exists
     assert os.path.exists(palindrome)
+
+def test_usage():
+    #test that tests for no arguments for usage
+    rv, out = getstatusoutput('{}'.format(palindrome2)) 
+    assert re.match('usage', out, re.IGNORECASE)
 
 def answer(text):
     text_ns = text.replace(" ", "")
