@@ -5,7 +5,7 @@ This program checks if a word or phrase is a palindrome.
 3. If you have not entered a palindrome, the program will turn what you entered into a palindrome. 
 4. The program will ask if you would like to enter another word or phrase.
 
-# Examples
+# Examples and Expected Outcomes
 This is what it should look like:
 ```
 $ ./palindrome.py
@@ -32,6 +32,7 @@ Usage: Try again with no arguments
 
 # Tests
 There are four tests in the test.py to make sure the program is running correctly. They test that the program exists, usage statement works, and it outputs the correct response if the word or phrase entered is a palindrome or not. 
+Use ```make test``` to run the test suite.
 A passing test suite looks like this:
 ```
 $ make test
