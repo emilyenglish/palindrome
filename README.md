@@ -1,4 +1,4 @@
-# palindrome
+# Palindrome
 This program checks if a word or phrase is a palindrome.
 1.This program uses user input to determine if a word or phrase is a palindrome. 
 2. It tells you if you have entered a palindrome or not. 
