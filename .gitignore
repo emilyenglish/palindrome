@@ -2,6 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache
+*.swp
+*.tar.gz
+*.tgz
+.coverage
+htmlcov
 
 # C extensions
 *.so
