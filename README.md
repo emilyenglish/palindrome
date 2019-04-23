@@ -1,6 +1,6 @@
 # Palindrome
 This program checks if a word or phrase is a palindrome.
-1.This program uses user input to determine if a word or phrase is a palindrome. 
+1. This program uses user input to determine if a word or phrase is a palindrome. 
 2. It tells you if you have entered a palindrome or not. 
 3. If you have not entered a palindrome, the program will turn what you entered into a palindrome. 
 4. The program will ask if you would like to enter another word or phrase.
@@ -8,7 +8,7 @@ This program checks if a word or phrase is a palindrome.
 # Examples
 This is what it should look like:
 ```
-$ ./palindrom.py
+$ ./palindrome.py
 Enter a word or phrase to check if it is a palindrome:
 racecar
 "racecar" is a palindrome
